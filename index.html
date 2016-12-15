@@ -6,9 +6,19 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script type = "text/javascript" src = "chat.js"></script>
   </head>
-  <body>
-    <h1>Hello World!</h1>
-    <h2>Goodbye World!!!!!!!!!</h2>
 
+  <body>
+  <div id = "wrapper">
+    <div id = "menu">
+      <p class = "intro">Intro, <b></b></p>
+      <p class = "logout"><a id = "exit" href="#">Exit Chat</a></p>
+    </div>
+
+    <div id = "chatbox"></div>
+
+    <form name="message" action="">
+        <input name="usermsg" type="text" id="usermsg" size="63" />
+        <input name="submitmsg" type="submit"  id="submitmsg" value="Post" />
+    </form>
   </body>
 </html>
